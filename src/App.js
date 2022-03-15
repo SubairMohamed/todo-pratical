@@ -4,7 +4,7 @@ import Right from './components/Asides/Right';
 
 const App = () => {
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen bg-yellow-200">
 
       <Left />
 
