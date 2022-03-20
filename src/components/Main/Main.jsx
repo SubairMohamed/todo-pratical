@@ -15,7 +15,9 @@ const Main = () => {
                     </button>
                 </div>
             </header>
-            <main>main</main>
+            <main className='bg-yellow-600 m-3 px-3 py-3 text-xl font-bold rounded-md capitalize shadow-red-300 shadow-md'>
+                main
+            </main>
         </section>
     )
 }
