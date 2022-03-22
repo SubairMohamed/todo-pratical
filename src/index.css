@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card-white {
+    @apply m-3 px-3 py-3 text-xl font-bold rounded-md capitalize shadow-red-300 shadow-md
+}

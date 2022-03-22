@@ -15,8 +15,18 @@ const Main = () => {
                     </button>
                 </div>
             </header>
-            <main className='bg-yellow-600 m-3 px-3 py-3 text-xl font-bold rounded-md capitalize shadow-red-300 shadow-md'>
-                main
+            <main className='bg-yellow-300 card-white'>
+                <div id='tasks'>
+                    <div id='task' className='card-white border-l-4 border-yellow-900 '>
+                        <div>
+                            <h5 className='font-semibold ml-3 text-slate-800'>Learnning</h5>
+                        </div>
+                        <div>
+                            <h1>Learning Mern stack</h1>
+                            <span>2021/2/02</span>
+                        </div>
+                    </div>
+                </div>
             </main>
         </section>
     )
