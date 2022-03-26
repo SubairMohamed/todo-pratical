@@ -13,15 +13,16 @@ const Main = () => {
                     <h1 className="text-lg font-bold tracking-wider bg-yellow-600 text-white rounded-lg p-1 mb-1">My Todo App</h1>
                     <p className="text-gray-50 text-sm tracking-wider">Sava my todo app</p>
                 </div>
-            </header>
-            <main className='bg-yellow-300 card-white relative'>
-                <div className="bg-yellow-500 text-white rounded-full flex justify-center items-center absolute">
+                <div className="bg-yellow-500 text-white rounded-full flex justify-center items-center">
                     <button>
                         <PlusCircleIcon className='w-5 h-5 text-yellow-100' />
                     </button>
                 </div>
+            </header>
+            <main className='bg-yellow-300 card-white'>
 
-                <div id='tasks' className='flex flex-col items-center justify-center bg-yellow-300 px-4'>
+                <div id='tasks' className='flex flex-col items-center justify-center bg-yellow-300 px-4 pt-10 rounded-lg'>
+                    <h1 className='text-left w-full font-bold border-b pb-2 mb-2 max-w-lg'>Lists</h1>
 
                     {/* task one  */}
 
