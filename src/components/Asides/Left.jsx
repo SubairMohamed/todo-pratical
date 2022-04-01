@@ -8,7 +8,7 @@ const Left = () => {
                 </div>
                 <div id="logo-text" className="hidden xl:block">
                     <h1 className="text-lg font-bold tracking-wider bg-yellow-600 inline-block text-white rounded-lg p-1 mb-1">My Todo App</h1>
-                    <p className="text-gray-50 text-sm tracking-wider">Sava my todo app</p>
+                    <p className="text-gray-500 text-sm tracking-wider">Sava my todo app</p>
                 </div>
             </div>
         </aside>
